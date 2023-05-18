@@ -1,0 +1,21 @@
+{
+    "key": "operator",
+    "name": "操作符",
+    "id": "0",
+    "children": [{
+        "pid": "0",
+        "id": "Create",
+        "name": "Create",
+        "children": [{
+            "id": "Input",
+            "pid": "Create",
+            "name": "input",
+            "classNameProps": "sub-item"
+        },{
+            "id": "Hidden",
+            "pid": "Create",
+            "name": "Hidden",
+            "styleProps": "{{color: red}}"
+        }]
+    }]
+}

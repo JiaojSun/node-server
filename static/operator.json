@@ -1,0 +1,743 @@
+{
+  "id": "operator",
+  "description": "operator子应用配置json",
+  "content": [
+    {
+      "id": "Create",
+      "label": "Create",
+      "imageURL": "/api/smave/images",
+      "tools": [
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_inputNode",
+          "label": "Input",
+          "imageURL": "/api/smave/images/icons/tool/create_inputNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_outputNode",
+          "label": "Output",
+          "imageURL": "/api/smave/images/icons/tool/create_outputNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_hidden",
+          "label": "Hidden",
+          "imageURL": "/api/smave/images/icons/tool/create_hidden.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_local_out",
+          "label": "Local Variable",
+          "imageURL": "/api/smave/images/icons/tool/create_local_out.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_probeNode",
+          "label": "Probe",
+          "imageURL": "/api/smave/images/icons/tool/create_probeNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_signal",
+          "label": "Present Signal",
+          "imageURL": "/api/smave/images/icons/tool/create_signal.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_signalEmit",
+          "label": "Emission Signal",
+          "imageURL": "/api/smave/images/icons/tool/create_signalEmit.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_textualExprNode",
+          "label": "Textual Expression",
+          "imageURL": "/api/smave/images/icons/tool/create_textualExprNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_assume",
+          "label": "Assume",
+          "imageURL": "/api/smave/images/icons/tool/create_assume.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_guarantee",
+          "label": "Guarantee",
+          "imageURL": "/api/smave/images/icons/tool/create_guarantee.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_terminator",
+          "label": "Terminator",
+          "imageURL": "/api/smave/images/icons/tool/create_terminator.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        }
+      ],
+      "__typename": "ToolSection"
+    },
+    {
+      "id": "Mathematical",
+      "label": "Mathematical",
+      "imageURL": "/api/smave/images",
+      "tools": [
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_plusNAryNode",
+          "label": "Plus",
+          "imageURL": "/api/smave/images/icons/tool/create_plusNAryNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_minusNAryNode",
+          "label": "Minus",
+          "imageURL": "/api/smave/images/icons/tool/create_minusNAryNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_multiNAryNode",
+          "label": "Multiplication",
+          "imageURL": "/api/smave/images/icons/tool/create_multiNAryNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_polymorphicAryNode",
+          "label": "Polymorphic Division",
+          "imageURL": "/api/smave/images/icons/tool/create_polymorphicAryNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_moduloAryNode",
+          "label": "Modulo",
+          "imageURL": "/api/smave/images/icons/tool/create_moduloAryNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_unaryMinusNAryNode",
+          "label": "Unary Minus",
+          "imageURL": "/api/smave/images/icons/tool/create_unaryMinusNAryNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_numericCastOp",
+          "label": "Numeric Cast",
+          "imageURL": "/api/smave/images/icons/tool/create_numericCastOp.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        }
+      ],
+      "__typename": "ToolSection"
+    },
+    {
+      "id": "Comparison",
+      "label": "Comparison",
+      "imageURL": "/api/smave/images",
+      "tools": [
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_lessThanNode",
+          "label": "Less Than",
+          "imageURL": "/api/smave/images/icons/tool/create_lessThanNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_lessThanOrEqualNode",
+          "label": "Less Than or Equal",
+          "imageURL": "/api/smave/images/icons/tool/create_lessThanOrEqualNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_greaterThanNode",
+          "label": "Greater Than",
+          "imageURL": "/api/smave/images/icons/tool/create_greaterThanNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_greaterThanOrEqualNode",
+          "label": "Greater Than or Equal",
+          "imageURL": "/api/smave/images/icons/tool/create_greaterThanOrEqualNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_differentNode",
+          "label": "Different",
+          "imageURL": "/api/smave/images/icons/tool/create_differentNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_equalNode",
+          "label": "Equal",
+          "imageURL": "/api/smave/images/icons/tool/create_equalNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        }
+      ],
+      "__typename": "ToolSection"
+    },
+    {
+      "id": "Logical",
+      "label": "Logical",
+      "imageURL": "/api/smave/images",
+      "tools": [
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_andAryNode",
+          "label": "And",
+          "imageURL": "/api/smave/images/icons/tool/create_andAryNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_orAryNode",
+          "label": "Or",
+          "imageURL": "/api/smave/images/icons/tool/create_orAryNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_notAryNode",
+          "label": "Not",
+          "imageURL": "/api/smave/images/icons/tool/create_notAryNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_xorAryNode",
+          "label": "Xor",
+          "imageURL": "/api/smave/images/icons/tool/create_xorAryNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        }
+      ],
+      "__typename": "ToolSection"
+    },
+    {
+      "id": "Higher Order",
+      "label": "Higher Order",
+      "imageURL": "/api/smave/images",
+      "tools": [
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_boolActivate",
+          "label": "Boolean Activate",
+          "imageURL": "/api/smave/images/icons/tool/create_boolActivate.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_restartNode",
+          "label": "Restart",
+          "imageURL": "/api/smave/images/icons/tool/create_restartNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_map",
+          "label": "Map",
+          "imageURL": "/api/smave/images/icons/tool/create_map.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_mapi",
+          "label": "Mapi",
+          "imageURL": "/api/smave/images/icons/tool/create_mapi.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_mapw",
+          "label": "Mapw",
+          "imageURL": "/api/smave/images/icons/tool/create_mapw.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_mapwi",
+          "label": "Mapwi",
+          "imageURL": "/api/smave/images/icons/tool/create_mapwi.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_fold",
+          "label": "Fold",
+          "imageURL": "/api/smave/images/icons/tool/create_fold.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_foldi",
+          "label": "Foldi",
+          "imageURL": "/api/smave/images/icons/tool/create_foldi.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_foldw",
+          "label": "Foldw",
+          "imageURL": "/api/smave/images/icons/tool/create_foldw.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_foldwi",
+          "label": "Foldwi",
+          "imageURL": "/api/smave/images/icons/tool/create_foldwi.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_mapfold",
+          "label": "MapFold",
+          "imageURL": "/api/smave/images/icons/tool/create_mapfold.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_mapfoldi",
+          "label": "MapFoldi",
+          "imageURL": "/api/smave/images/icons/tool/create_mapfoldi.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_mapfoldw",
+          "label": "MapFoldw",
+          "imageURL": "/api/smave/images/icons/tool/create_mapfoldw.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_mapfoldwi",
+          "label": "MapFoldwi",
+          "imageURL": "/api/smave/images/icons/tool/create_mapfoldwi.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        }
+      ],
+      "__typename": "ToolSection"
+    },
+    {
+      "id": "Time",
+      "label": "Time",
+      "imageURL": "/api/smave/images",
+      "tools": [
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_initNode",
+          "label": "Init",
+          "imageURL": "/api/smave/images/icons/tool/create_initNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_previous",
+          "label": "Previous",
+          "imageURL": "/api/smave/images/icons/tool/create_previous.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_followedBy",
+          "label": "Followed By",
+          "imageURL": "/api/smave/images/icons/tool/create_followedBy.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_times",
+          "label": "Times",
+          "imageURL": "/api/smave/images/icons/tool/create_times.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        }
+      ],
+      "__typename": "ToolSection"
+    },
+    {
+      "id": "Choice",
+      "label": "Choice",
+      "imageURL": "/api/smave/images",
+      "tools": [
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_ifThenElse",
+          "label": "If..Then..Else",
+          "imageURL": "/api/smave/images/icons/tool/create_ifThenElse.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_caseOp",
+          "label": "Case",
+          "imageURL": "/api/smave/images/icons/tool/create_caseOp.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        }
+      ],
+      "__typename": "ToolSection"
+    },
+    {
+      "id": "Bitwise",
+      "label": "Bitwise",
+      "imageURL": "/api/smave/images",
+      "tools": [
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_landAryNode",
+          "label": "Bitwise And",
+          "imageURL": "/api/smave/images/icons/tool/create_landAryNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_lorAryNode",
+          "label": "Bitwise Or",
+          "imageURL": "/api/smave/images/icons/tool/create_lorAryNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_lxorAryNode",
+          "label": "Bitwise Exclusive Or",
+          "imageURL": "/api/smave/images/icons/tool/create_lxorAryNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_lnotAryNode",
+          "label": "Bitwise Not",
+          "imageURL": "/api/smave/images/icons/tool/create_lnotAryNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_leftShift",
+          "label": "Logical Left Shift",
+          "imageURL": "/api/smave/images/icons/tool/create_leftShift.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_rightShift",
+          "label": "Logical Right Shift",
+          "imageURL": "/api/smave/images/icons/tool/create_rightShift.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        }
+      ],
+      "__typename": "ToolSection"
+    },
+    {
+      "id": "Structure/Array",
+      "label": "Structure/Array",
+      "imageURL": "/api/smave/images",
+      "tools": [
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_dataStructureNode",
+          "label": "Data Structure",
+          "imageURL": "/api/smave/images/icons/tool/create_dataStructureNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_dataArrayNode",
+          "label": "Data Array",
+          "imageURL": "/api/smave/images/icons/tool/create_dataArrayNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_scalarToVectorNode",
+          "label": "Scalar To Vector",
+          "imageURL": "/api/smave/images/icons/tool/create_scalarToVectorNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_slice",
+          "label": "Slice",
+          "imageURL": "/api/smave/images/icons/tool/create_slice.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_concatenation",
+          "label": "Concatenation",
+          "imageURL": "/api/smave/images/icons/tool/create_concatenation.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_reverse",
+          "label": "Reverse",
+          "imageURL": "/api/smave/images/icons/tool/create_reverse.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_transpose",
+          "label": "Transpose",
+          "imageURL": "/api/smave/images/icons/tool/create_transpose.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_prjDyn",
+          "label": "Dynamic Projection",
+          "imageURL": "/api/smave/images/icons/tool/create_prjDyn.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_projection",
+          "label": "Projection",
+          "imageURL": "/api/smave/images/icons/tool/create_projection.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_chgIth",
+          "label": "Assign of a Structured Element",
+          "imageURL": "/api/smave/images/icons/tool/create_chgIth.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_make",
+          "label": "Make",
+          "imageURL": "/api/smave/images/icons/tool/create_make.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_flatten",
+          "label": "Flatten",
+          "imageURL": "/api/smave/images/icons/tool/create_flatten.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        }
+      ],
+      "__typename": "ToolSection"
+    },
+    {
+      "id": "Conditional Block",
+      "label": "Conditional Block",
+      "imageURL": "/api/smave/images",
+      "tools": [
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_ifBlock",
+          "label": "New If Block",
+          "imageURL": "/api/smave/images/icons/tool/create_ifBlock.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_ifNode",
+          "label": "New If Node",
+          "imageURL": "/api/smave/images/icons/tool/create_ifNode.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": false,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_whenBlock",
+          "label": "New When Block",
+          "imageURL": "/api/smave/images/icons/tool/create_whenBlock.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_whenMatch",
+          "label": "New When Branch",
+          "imageURL": "/api/smave/images/icons/tool/create_whenMatch.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": false,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_stateMachine",
+          "label": "New State Machine",
+          "imageURL": "/api/smave/images/icons/tool/create_stateMachine.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": true,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_state",
+          "label": "New State",
+          "imageURL": "/api/smave/images/icons/tool/create_state.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": false,
+          "selectionDescriptionId": null
+        },
+        {
+          "__typename": "CreateNodeTool",
+          "id": "create_fork",
+          "label": "New Fork Symbol",
+          "imageURL": "/api/smave/images/icons/tool/create_fork.svg",
+          "targetDescriptions": [],
+          "appliesToDiagramRoot": false,
+          "selectionDescriptionId": null
+        }
+      ],
+      "__typename": "ToolSection"
+    }
+  ]
+}
